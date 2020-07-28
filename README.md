@@ -54,8 +54,21 @@ chmod - change mode on linux bash - make files executable +x name_of_file
 credit @ Bari
 
 
+## Bash Commands
 
+top - shows a list of all the processes currently running
+ps - shows the program id's
+chmod +x <filename.sh> - Changes the mode of a file to make it executable
 
+Number       |	   Octal Permission Representation                                    |	Ref
+0 	                      No permission 	                                              ---
+1 	                      Execute permission 	                                          --x
+2 	                      Write permission 	                                            -w-
+3 	                      Execute and write permission: 1 (execute) + 2 (write) = 3 	  -wx
+4 	                      Read permission 	                                            r--
+5 	                      Read and execute permission: 4 (read) + 1 (execute) = 5 	    r-x
+6 	                      Read and write permission: 4 (read) + 2 (write) = 6 	        rw-
+7 	                      All permissions: 4 (read) + 2 (write) + 1 (execute) = 7 	    rwx
 
 
 
