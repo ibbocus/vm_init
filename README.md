@@ -93,6 +93,22 @@ chmod +x <filename.sh> - Changes the mode of a file to make it executable
 | `chmod -R a-x+X _publicDocs_`               | **R**ecursively (i.e. on all files and directories in _publicDocs_) removes execute permission for all classes and adds special execution permission for all classes                                                                                           |
 
 
+### Symbolic Mode
 
+In the Absolute mode, you change permissions for all 3 owners. In the symbolic mode, you can modify permissions of a specific owner. It makes use of mathematical symbols to modify the file permissions. 
 
+| **Operator** | **Description**                                               |
+| ------------ | ------------------------------------------------------------- |
+|  |
+| **+**        | Adds a permission to a file or directory                      |
+| **\-**       | Removes the permission                                        |
+| **\=**       | Sets the permission and overrides the permissions set earlier |
 
+The various owners are represented as - 
+
+| **User Denotations** |
+| -------------------- |
+| u                    | user/owner |
+| g                    | group |
+| o                    | other |
+| a                    | all |
