@@ -107,7 +107,7 @@ In the Absolute mode, you change permissions for all 3 owners. In the symbolic m
 The various owners are represented as - 
 
 | **User Denotations** |**User type**|
-| -------------------- |
+| -------------------- |-------------|
 | u                    | user/owner |
 | g                    | group |
 | o                    | other |
